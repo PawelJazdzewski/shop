@@ -1,0 +1,15 @@
+python -m venv .venv
+
+source .venv/bin/activate
+
+deactivate
+
+pip freeze > requirements.txt
+
+pip install bokeh
+
+pip freeze > requirements.txt
+
+pip install -r
+
+pip install django
