@@ -13,3 +13,6 @@ pip freeze > requirements.txt
 pip install -r
 
 pip install django
+
+django-admin startproject ecommerce - kataolog
+
